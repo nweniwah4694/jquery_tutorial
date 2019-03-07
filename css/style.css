@@ -1,0 +1,43 @@
+.col-xs-3 {
+	width: 15%;
+	float: left;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin: 20px;
+}
+.panel-heading {
+	background: skyblue;
+	padding: 10px;
+}
+.panel-body {    
+	padding: 10px;
+	height: 50px;
+}
+.special {
+	color: blue;
+}
+
+.tab-panels ul {
+	padding: 0;
+	margin: 0;
+}
+.tab-panels ul li {
+	list-style: none;
+	background: #999;
+	padding: 3px 10px;
+	display: inline-block;
+	color: #fff;
+	border-radius: 10px 10px 0 0;
+}
+.tab-panels ul li.active , .tab-panels ul li:hover {
+	background: #666;
+	color: #fff;
+}
+.tab-panels .panel {
+	display: none;
+	background: #c9c9c9;
+	padding: 30px;
+}
+.tab-panels .panel.active {
+	display: block;
+}
